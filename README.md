@@ -28,5 +28,10 @@ user: system
 password: oracle
 
 
+### Unlocking HR Scheme
+
+Oracle-xe comes with a set of tables of a Human Resource department system, we can access these tables with the system user, but if you want to use the HR user you've to unlock the user with the command below.
+
+ALTER SYSTEM HR IDENTIFYED BY '_PASSWORD_' ACCOUNT UNLOCK.
 
 
