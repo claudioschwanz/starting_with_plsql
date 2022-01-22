@@ -12,7 +12,7 @@ To turn up this docker container you must have docker and docker-compose install
 Usually docker-compose already comes with docker installation, otherwise you can check it with the command docker-compose -v, it must return the docker-compose version.
 
 If it doesn't return the docker-compose version you must install it, you can install it with the command below:
-pip install docker-compose.
+- pip install docker-compose.
 
 ### Running the Container
 
@@ -20,7 +20,7 @@ With all the requirements above we are ready to run our docker container.
 
 Go to the docker folder with the docker-compose.yml file inside and execute the command below.
 
-docker-compose up
+- docker-compose up
 
 At the end of the execution we can connect to the database using the credentials below
 
