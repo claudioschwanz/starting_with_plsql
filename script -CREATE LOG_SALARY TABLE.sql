@@ -1,0 +1,8 @@
+
+CREATE TABLE LOG_SALARY (
+        EMPLOYEE_ID NUMBER(6,0),
+        OLD_SALARY NUMBER(6,0),
+        NEW_SALARY NUMBER(6,0),
+        LOG_DATE    DATE,
+        USER_LOG    VARCHAR2(20)
+);
